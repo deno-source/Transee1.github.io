@@ -7,4 +7,4 @@ function App() {
             <Button type="primary">Button</Button>
     </div>
  }
-ReactDOM.render( <App/> , document.getElementById('app'));
+ReactDOM.render(<App />, document.getElementById('app'));
