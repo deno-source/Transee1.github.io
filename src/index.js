@@ -5,6 +5,7 @@ import './index.css'
 function App() {
     return <div>
             <Button type="primary">Button</Button>
+            <Button type="danger">Button</Button>
     </div>
  }
 ReactDOM.render(<App />, document.getElementById('app'));
