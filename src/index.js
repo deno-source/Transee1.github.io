@@ -4,7 +4,7 @@ import { Button } from 'antd';
 import './index.css'
 function App() {
     return <div>
-            <Button type="primary">Demo</Button>
+            <Button type="primary">Demo2</Button>
     </div>
  }
 ReactDOM.render( <App/> , document.getElementById('app'));
