@@ -7,5 +7,23 @@ module.exports = {
         path: path.resolve(__dirname, './'),
         filename: '[name].js',
     },
-    plugins: [new HtmlWebpackPlugin()],
+    plugins: [new HtmlWebpackPlugin({
+        template:'./src/index.html'
+    })],
+    module: {
+        rules: [{
+            test: /\.(js|jsx)$/,
+            exclude: /(node_modules|bower_components)/,
+            use: {
+                loader: 'babel-loader',
+                options: {
+                    "presets": ["@babel/preset-react"]
+                }
+            }
+        },
+        {
+            test: /\.css$/i,
+            use: ["style-loader", "css-loader"],
+          },]
+    }
 }

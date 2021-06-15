@@ -18,10 +18,18 @@
   },
   "homepage": "https://github.com/Transee1/Transee1.github.io#readme",
   "dependencies": {
+    "@babel/core": "^7.14.6",
+    "antd": "^4.16.3",
+    "babel-loader": "^8.2.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "webpack": "^5.39.0",
     "webpack-cli": "^4.7.2"
   },
   "devDependencies": {
-    "html-webpack-plugin": "^5.3.1"
+    "@babel/preset-react": "^7.14.5",
+    "css-loader": "^5.2.6",
+    "html-webpack-plugin": "^5.3.1",
+    "style-loader": "^2.0.0"
   }
 }
